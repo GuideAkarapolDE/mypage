@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Style2.css">
+    <!-- ใช้ CSS เดียวกับ index.html -->
+</head>
+
+<body>
+
+    <form action="/submit" method="POST">
+        <ol class="contact-form">
+            <h1>Contact me</h1>
+            <h2>Contact us for information on the form below.</h2>
+            <!-- ใช้ ol แทน ul -->
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </li>
+            <li>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </li>
+
+            <button type="submit">Send email</button>
+
+        </ol>
+        <p><a href="index.html">Back to mu profile</a></p>
+    </form>
+
+
+
+</body>
+
+</html>
